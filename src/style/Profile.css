@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'dirtyline';
+    src: url("../fonts/dirtyfont.otf");
+}
+
+.searchMsg{
+    text-align: center;
+    padding-top: 40px;
+    opacity: 50%;
+}
+
+.profile{
+    min-height: 93vh;
+}
+
+.user-details{
+    height: 50vh;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.user-details-text{
+    width: 30vw;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-details-text .user-name{
+    font-weight: bolder;
+    font-size: 2em;
+    padding-left: 30px;
+    font-family: dirtyline;
+}
+
+.user-details-text p .label{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.user-details-text p .value{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-details-img{
+    width: 70vw;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.user-details-img img{
+    width: 400px;
+    border-radius: 50%;
+    transition: filter 0.5s ease-in-out;
+}
+
+.user-details-img img:hover{
+    filter: drop-shadow(0 0 10px white);
+    transition: filter 0.3s ease-in-out;
+}
+
+.user-details-img q{
+    font-style:italic;
+    font-weight: bolder;
+}
+
+.user-activity-visual{
+    height: 43vh;
+    /* background-color: red; */
+}

@@ -1,0 +1,38 @@
+.header{
+    height: 7vh;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container{
+    /* border: 2px solid black; */
+}
+
+.search-container input{
+    width: 25vw;
+    height: 4vh;
+    border: none;    
+    padding-left: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    outline: none;
+}
+
+.search-container button{
+    height: 4vh;
+    width: 6vw;
+    border-radius: 50px;
+    font-size: 1.1em;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 30%;
+}
+
+.search-container button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
